@@ -62,8 +62,9 @@ class Dog
     end.first
   end 
   
-  def 
     
+  def self.find_or_create_by
+  
   end 
   
   def update 
