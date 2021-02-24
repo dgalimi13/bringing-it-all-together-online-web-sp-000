@@ -40,7 +40,7 @@ class Dog
   end 
   
   def self.create(hash)
-    dog = Dog.new(name:[1],breed:[2])
+    dog = Dog.new(hash:[1],hash:[2])
     dog.save
     dog
   end
