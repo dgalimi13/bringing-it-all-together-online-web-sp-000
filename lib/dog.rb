@@ -45,7 +45,7 @@ class Dog
     dog
   end
   
-  def self.new_from_db(id:,name:,breed:)
+  def self.new_from_db(array)
   new_dog = self.new(id: id,name: name,row: row)
   new_dog
   end 
