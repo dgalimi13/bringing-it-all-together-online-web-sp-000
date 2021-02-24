@@ -45,7 +45,9 @@ class Dog
     dog
   end
   
-  
+  def self.new_from_db
+    
+  end 
   
   def update 
     sql = "UPDATE dogs SET name = ?, breed = ? WHERE id = ?"
