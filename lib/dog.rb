@@ -57,6 +57,7 @@ class Dog
       WHERE id = ?
       LIMIT 1
     SQL
+    
   end 
   
   def update 
