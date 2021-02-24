@@ -50,8 +50,13 @@ class Dog
   new_dog
   end 
   
-  def self.find_by_id
-    
+  def self.find_by_id(id)
+    sql = <<-SQL
+      SELECT *
+      FROM students
+      WHERE id = ?
+      LIMIT 1
+    SQL
   end 
   
   def update 
